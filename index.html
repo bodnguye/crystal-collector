@@ -13,7 +13,8 @@
 
 <div class="bg">
     <header>
-            <a><img src="https://fontmeme.com/permalink/190404/1d066476c6006e86209bc68e90dd4dab.png" alt="sonic-generations-font" border="0"></a>    </header>
+            <a><img src="https://fontmeme.com/permalink/190404/1d066476c6006e86209bc68e90dd4dab.png" alt="sonic-generations-font" border="0"></a>    
+    </header>
 
     <div class="container">
         <div class="row bordertest">
@@ -24,37 +25,51 @@
                 <p>The value of each crystal is hidden from you until you click on it.</p>
                 <p>Each time when the game starts, the game will change the values of each crystal.</p>
             </div>
+
+            <div>
+                <img id="rings" class="img-fluid" src="assets/images/loserings.jpg"/>
+            </div>
+
+            <div class="col-sm-5 bordertest">
+                    <a><img id="start" src="https://fontmeme.com/permalink/190406/a7e1e88da7ea227f35bf62ac8c83b170.png" alt="sonic-generations-font" border="0"></a>
+            </div>
         </div>
 
         <div class="row bordertest">
-                <div class="col-sm-2 bordertest">
+                <div id="target-score" class="col-sm-2 bordertest">
                 targetScore
                 </div>
 
                 <div class="col-sm-1 bordertest">
-                    <p>wins: 0</p>
-                    <p>losses: 0</p>
+                    <p id="win-text">wins: 0</p>
+                    <p id="lose-text">losses: 0</p>
                 </div>
             </div>
 
             <div class="row bordertest">
                 <div class="col-sm-1 bordertest">
-                    <img id="crystal" class="img-fluid" src="assets/images/Crystal1.png">
+                    <img id="crystal1" class="img-fluid crystal-value" src="assets/images/Crystal1.png">
                 </div>
                 <div class="col-sm-1 bordertest">
-                    <img id="crystal" class="img-fluid" src="assets/images/Crystal2.png">
+                    <img id="crystal2" class="img-fluid crystal-value" src="assets/images/Crystal2.png">
                 </div>
                 <div class="col-sm-1 bordertest">
-                    <img id="crystal" class="img-fluid" src="assets/images/Crystal3.PNG.png">
+                    <img id="crystal3" class="img-fluid crystal-value" src="assets/images/Crystal3.PNG.png">
                 </div>
                 <div class="col-sm-1 bordertest">
-                    <img id="crystal" class="img-fluid" src="assets/images/Crystal4.PNG.png">
+                    <img id="crystal4" class="img-fluid crystal-value" src="assets/images/Crystal4.PNG.png">
                 </div>
             </div>
 
             <div class="row bordertest">
                 <div class="col-sm-3 bordertest">
-                        yourScore
+                        Your total score is:
+                </div>
+            </div>
+
+            <div class="row bordertest">
+                <div id="your-score" class="col-sm-3 bordertest">
+                        added score
                 </div>
             </div>
     
@@ -62,8 +77,13 @@
   </div>
 </div>
 
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
 
     <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     
 </body>
 </html>

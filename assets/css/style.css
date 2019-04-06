@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    color: blue;
+    color: rgb(235, 215, 39);
   }
   
   .bg {
@@ -17,10 +17,75 @@ body, html {
     background-size: cover;
   }
 
-  p { 
-    color:blue;
-  }
+  /* .bordertest {
+   border: 1px solid white;
+} */
 
-  .bordertest {
-    border: 1px solid red;
+#crystal1:hover {
+    box-shadow: 1px 0px 5px 7px rgb(0, 172, 240) inset;
+    cursor: pointer;
+}
+
+#crystal2:hover {
+    box-shadow: 1px 0px 5px 9px rgb(255, 208, 0) inset;
+    cursor: pointer;
+}
+
+#crystal3:hover {
+    box-shadow: 1px 0px 5px 5px rgb(28, 180, 135) inset;
+    cursor: pointer;
+}
+
+#crystal4:hover {
+    box-shadow: 1px 0px 5px 9px rgb(168, 58, 8) inset;
+    cursor: pointer;
+}
+
+#crystal5 {
+    position: relative;
+    top:12%;
+    height:33px;
+}
+
+#crystal5:hover {
+    box-shadow: 1px 0px 5px 7px rgb(5, 100, 17) inset;
+    cursor: pointer;
+}
+
+#crystal6:hover {
+    box-shadow: 1px 0px 5px 9px rgb(170, 6, 175) inset;
+    cursor: pointer;
+}
+
+#crystal7:hover {
+    box-shadow: 1px 0px 5px 5px rgb(243, 252, 249) inset;
+    cursor: pointer;
+}
+
+#crystal8:hover {
+    box-shadow: 1px 0px 5px 9px rgb(19, 2, 36) inset;
+    cursor: pointer;
+}
+
+#target-score {
+    font-size: 35px;
+}
+
+#your-score {
+    font-size: 35px;
+}
+
+#rings {
+    width: 50%;
+    height: 67%;
+    position: absolute;
+    top: 28%;
+    right: 5%;
+    display: none;
+}
+
+#start {
+    position: relative;
+    left:40%;
+    top: 20%;
 }
